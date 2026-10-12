@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chat Overlay privacy policy</title>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p>Chat Overlay<br>Effective date: October 12, 2026</p>
+  <p>Chat Overlay is a local broadcast tool used by the channel owner. It shows YouTube live chat on that owner's own screen during a stream.</p>
+  <h2>Google data the app accesses</h2>
+  <p>The app requests the YouTube read-only permission (youtube.readonly) from the channel owner's Google account. With that permission it looks up the owner's active live broadcast and reads that broadcast's live chat. The fields it uses are the sender's display name, profile image, message text, and, for a Super Chat, the amount and comment.</p>
+  <h2>How that data is used</h2>
+  <p>Chat Overlay uses this data only to show the current live chat in the owner's local overlay. Messages appear on that overlay and are removed after about 30 seconds. The app does not use Google user data for advertising, and it does not sell that data. It does not use the data to train models, and it does not let other people sign in.</p>
+  <p>Use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <h2>What is stored</h2>
+  <p>The app stores a refresh token in a file on the channel owner's computer so the owner does not have to approve access before every stream. That file is not uploaded with the app and is not placed in a public repository. Chat messages are not saved in a database. Closing or removing a message drops it from the overlay.</p>
+  <h2>Sharing</h2>
+  <p>Chat Overlay does not send Google user data to another service. The owner's computer talks to Google to read the chat. Chat that is already public on the live broadcast may be visible in the owner's stream because showing that chat is the purpose of the overlay.</p>
+  <h2>Contact</h2>
+  <p>Questions about this policy: contact me on here, directly.
+</body>
+</html>
